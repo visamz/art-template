@@ -10,7 +10,7 @@
 
 ## 表达式
 
-``{{`` 与 ``}}`` 符号包裹起来的语句则为模板的逻辑表达式。
+`{{` 与 `}}` 符号包裹起来的语句则为模板的逻辑表达式。
 
 ### 输出表达式
 
@@ -60,7 +60,7 @@
 ```
 ## 辅助方法
 
-使用``template.helper(name, callback)``注册公用辅助方法：
+使用`template.helper(name, callback)`注册公用辅助方法：
 
 ```js
 template.helper('dateFormat', function (date, format) {

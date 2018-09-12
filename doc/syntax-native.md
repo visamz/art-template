@@ -10,7 +10,7 @@
 
 ## 表达式
 
-``<%`` 与 ``%>`` 符号包裹起来的语句则为模板的逻辑表达式。
+`<%` 与 `%>` 符号包裹起来的语句则为模板的逻辑表达式。
 
 ### 输出表达式
 
@@ -30,9 +30,9 @@
 ```html
 <h1><%=title%></h1>
 <ul>
-	<% for(i = 0; i < list.length; i ++) { %>
-		<li>条目内容 <%=i + 1%> ：<%=list[i]%></li>
-	<% } %>
+    <% for(i = 0; i < list.length; i ++) { %>
+    <li>条目内容 <%=i + 1%> ：<%=list[i]%></li>
+    <% } %>
 </ul>
 ```
 > 模板不能访问全局对象，公用的方法请参见文档[辅助方法](#辅助方法)章节
@@ -49,11 +49,11 @@
 ```
 ## 辅助方法
 
-使用``template.helper(name, callback)``注册公用辅助方法：
+使用`template.helper(name, callback)`注册公用辅助方法：
 ```html
 template.helper('dateFormat', function (date, format) {
-	// ..
-	return value;
+    // ..
+    return value;
 });
 ```
 模板中使用的方式：
