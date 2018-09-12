@@ -16,11 +16,11 @@
 
 对内容编码输出：
 ```html
-    <%=content%>
+<%=content%>
 ```
 不编码输出：
 ```html
-    <%=#content%>
+<%=#content%>
 ```   
 编码可以防止数据中含有 HTML 字符串，避免引起 XSS 攻击。
 
@@ -30,9 +30,9 @@
 ```html
 <h1><%=title%></h1>
 <ul>
-	<%for(i = 0; i < list.length; i ++) {%>
+	<% for(i = 0; i < list.length; i ++) { %>
 		<li>条目内容 <%=i + 1%> ：<%=list[i]%></li>
-	<%}%>
+	<% } %>
 </ul>
 ```
 > 模板不能访问全局对象，公用的方法请参见文档[辅助方法](#辅助方法)章节
