@@ -62,11 +62,11 @@ template.helper('dateFormat', function (date, format) {
 ```
 ##	演示例子
 
-*	[基本例子](http://aui.github.io/artTemplate/demo/template-native/basic.html)
-*	[不转义HTML](http://aui.github.io/artTemplate/demo/template-native/no-escape.html)
-*	[在javascript中存放模板](http://aui.github.io/artTemplate/demo/template-native/compile.html)
-*	[嵌入子模板(include)](http://aui.github.io/artTemplate/demo/template-native/include.html)
-*	[访问外部公用函数(辅助方法)](http://aui.github.io/artTemplate/demo/template-native/helper.html)
+*	[基本例子](https://visamz.github.io/art-template/demo/template-native/basic.html)
+*	[不转义HTML](https://visamz.github.io/art-template/demo/template-native/no-escape.html)
+*	[在javascript中存放模板](https://visamz.github.io/art-template/demo/template-native/compile.html)
+*	[嵌入子模板(include)](https://visamz.github.io/art-template/demo/template-native/include.html)
+*	[访问外部公用函数(辅助方法)](https://visamz.github.io/art-template/demo/template-native/helper.html)
 
 ----------------------------------------------
 
