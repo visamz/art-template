@@ -1,4 +1,4 @@
-# This repo is a backup of art-template v3.1.3 
+# This repo is a backup of [art-template v3.1.3](https://github.com/aui/art-template/tree/3.1.0) 
 ## artTemplate
 
 新一代 javascript 模板引擎
