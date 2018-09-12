@@ -10,9 +10,6 @@
 *	[模板语法](#模板语法)
 *	[下载](#下载)
 *	[方法](#方法)
-*	[NodeJS](#nodejs)
-*	[使用预编译](#使用预编译)
-*	[更新日志](#更新日志)
 *	[授权协议](#授权协议)
 
 ##	特性
@@ -22,7 +19,7 @@
 3.	对 NodeJS Express 友好支持
 4.	安全，默认对输出进行转义、在沙箱中运行编译后的代码（Node版本可以安全执行用户上传的模板）
 5.	支持 `include` 语句
-6.	可在浏览器端实现按路径加载模板（[详情](#使用预编译)）
+6.	可在浏览器端实现按路径加载模板
 7.	支持预编译，可将模板转换成为非常精简的 js 文件
 8.	模板语句简洁，无需前缀引用数据，有简洁版本与原生语法版本可选
 9.	支持所有流行的浏览器
@@ -75,7 +72,7 @@ document.getElementById('content').innerHTML = html;
 {{/if}}
 ```
 
-[查看语法与演示](https://visamz.github.io/art-template/doc/syntax-simple.html)
+[查看语法与演示](https://github.com/visamz/art-template/wiki/%E7%AE%80%E6%B4%81%E8%AF%AD%E6%B3%95%E7%89%88)
 
 ###	原生语法
 
@@ -89,7 +86,7 @@ document.getElementById('content').innerHTML = html;
 <% } %>
 ```
 
-[查看语法与演示](https://visamz.github.io/art-template/doc/syntax-native.html)
+[查看语法与演示](https://github.com/visamz/art-template/wiki/%E5%8E%9F%E7%94%9F-js-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E7%89%88)
 
 ##	下载
 
