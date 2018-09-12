@@ -3,9 +3,7 @@
 
 新一代 javascript 模板引擎
 
-> 后会无期。2016-12-22
-
-##      	目录
+##   目录
 
 *	[特性](#特性)
 *	[快速上手](#快速上手)
@@ -34,7 +32,7 @@
 ### 编写模板
 
 使用一个`type="text/html"`的`script`标签存放模板：
-```js
+```html
 <script id="test" type="text/html">
 <h1>{{title}}</h1>
 <ul>
@@ -76,13 +74,13 @@ document.getElementById('content').innerHTML = html;
 
 ###	原生语法
 ```html
-<%if (admin){%>
-    <%include('admin_content')%>
+<% if (admin){ %>
+    <% include('admin_content') %>
 
-    <%for (var i=0;i<list.length;i++) {%>
+    <% for (var i=0;i<list.length;i++) { %>
         <div><%=i%>. <%=list[i].user%></div>
-    <%}%>
-<%}%>
+    <% } %>
+<% } %>
 ```
 [查看语法与演示](https://github.com/aui/artTemplate/wiki/syntax:native)
 
