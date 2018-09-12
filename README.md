@@ -70,7 +70,7 @@ document.getElementById('content').innerHTML = html;
     {{/each}}
 {{/if}}
 ```
-[查看语法与演示](https://github.com/aui/artTemplate/wiki/syntax:simple)
+[查看语法与演示](https://visamz.github.io/art-template/doc/syntax-simple.html)
 
 ###	原生语法
 ```html
@@ -82,7 +82,7 @@ document.getElementById('content').innerHTML = html;
     <% } %>
 <% } %>
 ```
-[查看语法与演示](https://github.com/aui/artTemplate/wiki/syntax:native)
+[查看语法与演示](https://visamz.github.io/art-template/doc/syntax-native.html)
 
 ##	下载
 
