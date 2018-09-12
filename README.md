@@ -32,7 +32,7 @@
 ### 编写模板
 
 使用一个`type="text/html"`的`script`标签存放模板：
-```html
+```
 <script id="test" type="text/html">
 <h1>{{title}}</h1>
 <ul>
@@ -61,7 +61,7 @@ document.getElementById('content').innerHTML = html;
 ###	简洁语法
 
 推荐使用，语法简单实用，利于读写。
-```html
+```
 {{if admin}}
     {{include 'admin_content'}}
     
@@ -73,7 +73,7 @@ document.getElementById('content').innerHTML = html;
 [查看语法与演示](https://visamz.github.io/art-template/doc/syntax-simple.html)
 
 ###	原生语法
-```html
+```
 <% if (admin){ %>
     <% include('admin_content') %>
 
